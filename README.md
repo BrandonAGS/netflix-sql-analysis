@@ -1,13 +1,16 @@
 # Netflix SQL Analysis
 
-Proyecto de análisis de datos en SQL utilizando una base de datos simulada tipo Netflix.
+Proyecto de análisis de contenido tipo Netflix utilizando SQL y Power BI.
 
 ## Objetivo
-Analizar información de series, episodios y actores para extraer métricas de rendimiento, popularidad y consistencia, respondiendo a preguntas de negocio mediante consultas SQL optimizadas.
+Analizar información de series, episodios y actores para extraer métricas de rendimiento, popularidad y consistencia, respondiendo a preguntas de negocio mediante consultas SQL optimizadas y visualizarlas en Power BI.
 
 ## Herramientas
 * MySQL
 * SQL
+* Power BI
+* DAX
+* Power Query
 
 ## Modelo de Datos
 El proyecto utiliza un modelo relacional compuesto por:
@@ -34,6 +37,9 @@ El proyecto utiliza un modelo relacional compuesto por:
 ## Dashboard
 
 ![Dashboard Netflix](dashboard_netflix.png)
+
+## Dashboard Interactivo
+https://app.powerbi.com/view?r=eyJrIjoiMmI0YTZlZTctZDhmYi00ZTMzLTljOTYtYzI1NmM0Mzg3MWVjIiwidCI6IjAzMGU5NTFkLTZlZmQtNDJmNS04NDI3LWJhYjYzMmNmODAxMCIsImMiOjR9
 
 ## Estructura del proyecto
 * `schema.sql` → Creación de tablas
