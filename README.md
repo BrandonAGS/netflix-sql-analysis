@@ -31,6 +31,10 @@ El proyecto utiliza un modelo relacional compuesto por:
 * Episodios más populares segmentados por año de estreno.
 * Participación de actores y minutos totales en pantalla.
 
+## Dashboard
+
+![Dashboard Netflix](dashboard_netflix.png)
+
 ## Estructura del proyecto
 * `schema.sql` → Creación de tablas
 * `data.sql` → Inserción de datos
